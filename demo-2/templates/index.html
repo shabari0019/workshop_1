@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>hello everyone</h1>
+<p> This site will predict you age upon giving birth year</p>
+<img src="{{'https://miro.medium.com/v2/resize:fit:1000/1*EU3eKPw1MxH_0HSkto9Pfg.jpeg'}}" width="50%" height="30%">
+
+<form action="{{url_for('result')}}" method="post">
+    name: <input type="text" name="name" id="name">
+    birth year: <input type="text" name="year" id = "year">
+    <input type="submit">
+</form>
+</body>
+</html>
